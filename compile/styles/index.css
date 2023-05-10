@@ -1,0 +1,409 @@
+@font-face {
+  font-family: "SoundCloud-900";
+  src: url("../font/soundcloud-sans-900-03bbceefe9659e9d9cee10e885a88dc2.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SoundCloud-700";
+  src: url("../font/soundcloud-sans-700-4d19511ea677f5ec5c828f0258549ec4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SoundCloud-500";
+  src: url("../font/soundcloud-sans-500-cf1a3e1fb4cee50fe430b572d2c855b4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.welcome {
+  background-color: white;
+  font-family: "SoundCloud-900", sans-serif;
+}
+.welcome .title {
+  max-width: 48rem;
+  font-size: 80px;
+  line-height: 60px;
+}
+
+.headDiv {
+  width: 100%;
+  height: 626px;
+}
+.headDiv .Kellow {
+  height: 626px;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: center;
+  width: 100%;
+  background-size: contain;
+  z-index: 10;
+  top: 0;
+  position: absolute;
+  color: inherit;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bar {
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid black;
+  display: flex;
+  z-index: 0;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+.bar img {
+  width: 186px;
+  height: 22.67px;
+}
+
+body {
+  margin: 0;
+}
+
+.presentation {
+  display: flex;
+  width: 56%;
+  background-image: none;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 20;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+}
+.presentation .container {
+  padding: 16px;
+  margin: 16px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.presentation .container .title {
+  max-width: 48rem;
+  font-size: 80px;
+  width: 100%;
+  line-height: 60px;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 8px;
+  tab-size: 4;
+  font-family: "SoundCloud-900", sans-serif;
+}
+.presentation .container .desc {
+  max-width: 34rem;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 48px;
+  display: block;
+  line-height: 20px;
+  font-family: "SoundCloud-500", sans-serif;
+  tab-size: 4;
+}
+.presentation .container .buttonContainer {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  tab-size: 4;
+}
+.presentation .container .buttonContainer .buttons {
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.presentation .container .buttonContainer .buttons .join {
+  width: 256px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  text-transform: none;
+  font-family: "SoundCloud-700", sans-serif;
+  margin: 0;
+  tab-size: 4;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.presentation .container .buttonContainer .buttons .sign {
+  width: 256px;
+  background-color: white;
+  font-family: "SoundCloud-700", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  tab-size: 4;
+}
+
+.blackContainer {
+  background-color: black;
+}
+.blackContainer .streaming {
+  height: 498px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.blackContainer .streaming .badge {
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: 70%;
+  width: 41.66667%;
+  height: 450px;
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.blackContainer .streaming .container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 58.33333%;
+  padding-left: 16px;
+  padding-right: 16px;
+  flex-direction: column;
+  max-width: 42rem;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.blackContainer .streaming .container .strTitle {
+  font-family: "SoundCloud-900", sans-serif;
+  font-weight: 900;
+  color: white;
+  line-height: 54px;
+  font-size: 48px;
+  margin: 0;
+  display: block;
+  tab-size: 4;
+  padding: 0px;
+  max-width: 556px;
+}
+.blackContainer .streaming .container .strDesc {
+  font-family: "SoundCloud-500", sans-serif;
+  font-weight: 500;
+  line-height: 1.5rem;
+  font-size: 16px;
+  margin: 0;
+  display: block;
+  margin-top: 24px;
+  tab-size: 4;
+  color: white;
+  max-width: 556px;
+}
+.blackContainer .supportContainer {
+  display: flex;
+  height: 462px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.blackContainer .supportContainer .picContainer {
+  justify-content: flex-start;
+  width: 50%;
+  bottom: 64px;
+  text-align: center;
+  padding-top: 64px;
+  display: grid;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.blackContainer .supportContainer .descContainer {
+  width: 50%;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  max-width: 48rem;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.blackContainer .supportContainer .descContainer h2 {
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 900;
+  font-family: "SoundCloud-900", sans-serif;
+  margin: 0;
+  tab-size: 4;
+}
+.blackContainer .supportContainer .descContainer p {
+  color: white;
+  line-height: 1.75rem;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "SoundCloud-500", sans-serif;
+  margin-top: 24px;
+  tab-size: 4;
+}
+
+.carrousel {
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  overflow-x: hidden;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.carrousel .slider {
+  display: flex;
+  width: 2611.52;
+  animation: scroll 30s linear infinite;
+}
+.carrousel .item {
+  align-items: center;
+  display: flex;
+  margin-left: 18px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+  font-family: "SoundCloud-700", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.carrousel .item h2 {
+  letter-spacing: 1.6px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: "SoundCloud-700", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  margin-left: 18px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  tab-size: 4;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1305.76px);
+  }
+}
+.card {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-bottom: 0.5px solid black;
+  flex-direction: row;
+  margin-left: 64px;
+  margin-right: 64px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.card .descContainer {
+  width: 50%;
+  margin-top: 24px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.card .descContainer h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 900;
+  margin: 0;
+  font-family: "SoundCloud-900", sans-serif;
+}
+.card .descContainer p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  margin-top: 24px;
+  display: block;
+  tab-size: 4;
+  font-family: "SoundCloud-500", sans-serif;
+}
+.card img {
+  width: 508px;
+  border-radius: 6px;
+}
+
+.support {
+  padding-bottom: 0;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Left .descContainer {
+  padding-right: 32px;
+}
+
+.Right .descContainer {
+  padding-left: 32px;
+}
+
+/*# sourceMappingURL=index.css.map */

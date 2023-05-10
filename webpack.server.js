@@ -65,7 +65,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: "./src/public/index.html",
-      filename: "[name].html",
+      filename: "source.html",
     }),
     new MiniCSSExtractPlugin({
       filename: "[name].css",

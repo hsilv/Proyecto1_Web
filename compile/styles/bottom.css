@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "SoundCloud-900";
+  src: url("../font/soundcloud-sans-900-03bbceefe9659e9d9cee10e885a88dc2.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SoundCloud-700";
+  src: url("../font/soundcloud-sans-700-4d19511ea677f5ec5c828f0258549ec4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SoundCloud-500";
+  src: url("../font/soundcloud-sans-500-cf1a3e1fb4cee50fe430b572d2c855b4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.bottomContainer {
+  background-color: black;
+  padding: 64px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.bottomContainer .descContainer {
+  padding-top: 0;
+  width: 50%;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.bottomContainer .descContainer h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 900;
+  font-family: "SoundCloud-900", sans-serif;
+  margin: 0;
+  color: white;
+}
+.bottomContainer .descContainer p {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 24px;
+  tab-size: 4;
+  font-family: "SoundCloud-500", sans-serif;
+}
+.bottomContainer .picContainer {
+  padding-left: 32px;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.bottomContainer .picContainer img {
+  width: 400px;
+}
+
+.buttonContainer {
+  margin-top: 40px;
+}
+.buttonContainer .buttonRow {
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  tab-size: 4;
+}
+.buttonContainer .buttonRow button {
+  width: fit-content;
+  font-weight: 700;
+  font-family: "SoundCloud-900", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  text-transform: none;
+  tab-size: 4;
+}
+.buttonContainer .buttonRow .white {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+.buttonContainer .buttonRow .black {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=bottom.css.map */

@@ -5,16 +5,7 @@ import "./styles/index.scss";
 import ReactDOMServer from "react-dom/server";
 
 //const root = ReactDOM.createRoot(document.getElementById("root"));
-
-const HTML = ReactDOMServer.renderToString(
-  <div>
-    <App />
-  </div>
-);
-
-ReactDOM.hydrate(
-  <div>
-    <App />
-  </div>,
+ReactDOM.hydrateRoot(
+    <App />,
   document.getElementById("root")
 );
